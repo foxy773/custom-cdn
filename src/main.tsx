@@ -41,15 +41,3 @@ if (shadowRoot) {
   // finally, observe using tw function
   observe(tw, shadowRoot);
 }
-
-/* ReactDOM.createRoot(document.getElementById("root")!).render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
-); */
-
-// ReactDOM.createRoot(rootContainer).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
