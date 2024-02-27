@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
+import App from './App';
 import './index.css';
-import { twind, cssom, observe, install } from '@twind/core';
+import { twind, cssom, observe } from '@twind/core';
 // support shadowroot.adoptedStyleSheets in all browsers
 import 'construct-style-sheets-polyfill';
 // mention right path for twind.config.js
-import config from '../twind.config.ts';
+import config from '../twind.config';
 
 import { createRoot } from 'react-dom/client';
 const sheet = cssom(new CSSStyleSheet());
