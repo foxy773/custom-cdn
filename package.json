@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npm run rename-build && npm pull-old-changes && npm run git-push",
+    "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "rename-build": "mv ./dist/assets/app-*.js ./dist/assets/app-bundle.js && mv ./dist/assets/avatar-*.png ./dist/assets/app-bundle-avatar.png ",
