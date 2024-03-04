@@ -8,7 +8,7 @@
     "build": "tsc && vite build ",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "pull-old-changes": "git pull project-x main ",
+    "pull-old-changes": "git checkout build && git pull cust-cdn main --force ",
     "rename-build": "mv ./dist/assets/app-*.js ./dist/assets/app-bundle.js",
     "git-push": "git add ./dist/* && git commit -m \"Add new bundle to git\" && git push project-x main --force-with-lease"
   },
